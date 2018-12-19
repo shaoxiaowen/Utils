@@ -8,7 +8,7 @@ import redis.clients.jedis.JedisPoolConfig;
 /**
  * @description: TODO
  * @author: xiaowen
- * @create: 2018-12-19 14:18
+ * @create: 2018-12-19 14:20
  **/
 public class RedisPool {
     private static JedisPool pool;//jedis连接池
