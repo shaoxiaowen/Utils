@@ -33,7 +33,7 @@ public class JsonUtil {
         objectMapper.setSerializationInclusion(JsonInclude.Include.ALWAYS);
 
         //取消默认转换timestamps形式
-        objectMapper.configure(SerializationFeature.WRITE_DATE_KEYS_AS_TIMESTAMPS, false);
+        objectMapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
 
         //忽略空bean转Json的错误
         objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
